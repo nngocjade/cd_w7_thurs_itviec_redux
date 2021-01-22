@@ -5,7 +5,7 @@ import logo from "../logo.svg";
 
 const PublicNavbar = () => {
   return (
-    <Navbar bg="light" expand="lg">
+    <Navbar bg="dark" expand="lg" variant="dark">
       <Navbar.Brand className="mr-auto">
         <img src={logo} alt="CoderSchool" width="50px" />
       </Navbar.Brand>
