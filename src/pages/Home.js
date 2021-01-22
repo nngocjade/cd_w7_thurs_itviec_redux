@@ -5,7 +5,7 @@ const Home = () => {
     <div>
       <h1>
         Welcome to IT Viec, please navigate to Jobs for a list of currently open
-        jobs.
+        positions.
       </h1>
     </div>
   );
