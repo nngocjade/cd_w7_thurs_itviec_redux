@@ -20,6 +20,7 @@ const JobList = () => {
         <h1>I AM LOADING</h1>
       ) : (
         <div>
+          {" "}
           {jobList.map((job) => (
             <Card key={job.id} className="job-card">
               <Card.Header className="job-header">
@@ -30,7 +31,6 @@ const JobList = () => {
                     </li>
                   ))}
                 </div>
-
                 <Button
                   className="job-detail-btn"
                   variant="primary"
